@@ -1,4 +1,4 @@
-dangerlet markersData ={
+let markersData ={
 	'fireplace':{name: '火事場', icon: 'fire.PNG', distance:'300', color:'non'},
 		'FireStation':{name: '消防署', icon: 'FireStation.png', distance:'300', color:'non'},
 };
