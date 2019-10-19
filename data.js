@@ -1,10 +1,10 @@
 dangerlet markersData ={
-	'fireplace':{name: '火事', icon: 'fire.PNG', distance:'300', color:'non'},
+	'fireplace':{name: '火事場', icon: 'fire.PNG', distance:'300', color:'non'},
 		'FireStation':{name: '消防署', icon: 'FireStation.png', distance:'300', color:'non'},
 };
 
 var data = [
-	{  "id" : "danger_1",  "cat" : "fireplace",  "name" : "ブラジル連邦共和国 Rio Alto Pacaj&aacute;",  "addr" : "Rio Alto Pacaj&aacute;",  "lat" : "&minus;2.10308",  "lon" : "&minus;50.99964",    },
+	{  "id" : "danger_1",  "cat" : "fireplace",  "name" : "ブラジル連邦共和国 Rio Alto Pacajá;",  "addr" : "Rio Alto Pacajá;",  "lat" : "-2.10308",  "lon" : "-50.99964",    },
 	{  "id" : "danger_2",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.16319",  "lon" : "-50.16797",    },
 	{  "id" : "danger_3",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.1833",  "lon" : "-50.22018",    },
 	{  "id" : "danger_4",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.18656",  "lon" : "-50.18959",    },
