@@ -1,5 +1,5 @@
 let markersData ={
-	'bus':{name: 'バス停', icon: 'bus_stop.png', distance:'300', color:'red'},
+	'bus':{name: 'バス停', icon: 'fire.PNG', distance:'300', color:'red'},
 		'event':{name: 'イベント', icon: 'GreenF.png', distance:'300', color:'non'},
 		'CommunityCenter':{name: 'コミュニティ', icon: 'CommunityCenter.png', distance:'300', color:'non'},
 		'FuneralCenter':{name: '斎場・霊園', icon: 'FuneralCenter.png', distance:'300', color:'non'},
