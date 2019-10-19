@@ -1,5 +1,5 @@
 let markersData ={
-	'bus':{name: 'バス停', icon: 'fire.PNG', distance:'300', color:'red'},
+	'bus':{name: 'バス停', icon: 'bus1.png', distance:'300', color:'red'},
 		'event':{name: 'イベント', icon: 'GreenF.png', distance:'300', color:'non'},
 		'CommunityCenter':{name: 'コミュニティ', icon: 'CommunityCenter.png', distance:'300', color:'non'},
 		'FuneralCenter':{name: '斎場・霊園', icon: 'FuneralCenter.png', distance:'300', color:'non'},
@@ -16,7 +16,8 @@ let markersData ={
 		'sight':{name: '観光', icon: 'sight.png', distance:'300', color:'non'},
 		'buy':{name: '買う', icon: 'buy.png', distance:'300', color:'non'},
 		'Facility':{name: 'その他施設', icon: 'Facility.png', distance:'300', color:'non'},
-		'FireStation':{name: '消防署', icon: 'FireStation.png', distance:'300', color:'non'},
+		'FireStation':{name: '消防署', icon: 'FireStation.png', distance:'300', color:'non'},'fireplace':{name: '火事場', icon: 'fire.PNG', distance:'300', color:'non'},
+	
 		};
 
 var data = [
@@ -1447,5 +1448,5 @@ var data = [
 	{  "id" : "buy_35",  "cat" : "buy",  "name" : "【和洋菓子】菓子の三平",  "addr" : "石巻市駅前北通り1",  "lat" : "38.43718",  "lon" : "141.30621",  "year" : "",  "month" : "",  "day" : "",  "you" : "",  "text" : "石巻ならではの和洋菓子を楽しめる「菓子の三平」。 昭和41年頃からこの場所で営業をしている老舗です。",  },
 	{  "id" : "buy_36",  "cat" : "buy",  "name" : "【喫茶・菓子（シュークリーム等）】工房 かざみどり",  "addr" : "石巻市日和が丘1－22",  "lat" : "38.42405",  "lon" : "141.30692",  "year" : "",  "month" : "",  "day" : "",  "you" : "",  "text" : "地元でも大人気のシュークリーム。",  },
 	{  "id" : "buy_37",  "cat" : "buy",  "name" : "【菓子類・教室】あとりえらいおんどあ",  "addr" : "石巻市泉町1-5",  "lat" : "38.42727",  "lon" : "141.30345",  "year" : "",  "month" : "",  "day" : "",  "you" : "",  "text" : "「応援ありがとう・石巻」のメッセージをはじめ、結婚式や卒業式などお祝いに最適な印刷クッキーは当店の人気商品です。",  },
-	{  "id" : "buy_38",  "cat" : "buy",  "name" : "【海産物】⑭海遊 KAI-YOU",  "addr" : "石巻市雄勝町水浜9－1",  "lat" : "38.49928",  "lon" : "141.47325",  "year" : "",  "month" : "",  "day" : "",  "you" : "",  "text" : "海遊は、漁師の会社です。 顔の見える水産業、安全・安心をご提供しております！",  },
+	{  "id" : "danger_1",  "cat" : "escape",  "name" : " 【炎上】",  "addr" : "石巻市雄勝町水浜9－1",  "lat" : "38.49928",  "lon" : "141.47325",  "year" : "",  "month" : "",  "day" : "",  "you" : "",  },
 ];
