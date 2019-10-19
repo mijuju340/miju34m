@@ -1,5 +1,5 @@
 dangerlet markersData ={
-	'fireplace':{name: '火事', icon: 'fire.PNG', distance:'300', color:'non'},
+	'fireplace':{name: '火事', icon: 'fire.PNG', distance:'300', color:'red'},
 		'FireStation':{name: '消防署', icon: 'FireStation.png', distance:'300', color:'non'},
 };
 
