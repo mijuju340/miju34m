@@ -16,9 +16,9 @@ let markersData ={
 		'sight':{name: '観光', icon: 'sight.png', distance:'300', color:'non'},
 		'buy':{name: '買う', icon: 'buy.png', distance:'300', color:'non'},
 		'Facility':{name: 'その他施設', icon: 'Facility.png', distance:'300', color:'non'},
-		'FireStation':{name: '消防署', icon: 'FireStation.png', distance:'300', color:'non'},'fireplace':{name: '火事場', icon: 'fire.PNG', distance:'300', color:'non'},
-	
-		};
+		'FireStation':{name: '消防署', icon: 'FireStation.png', distance:'300', color:'non'},
+		'fireplace':{name: '火事場', icon: 'fire.PNG', distance:'300', color:'non'},
+};
 
 var data = [
 	{  "id" : "shisetu_1",  "cat" : "Facility",  "name" : "市役所本庁舎",  "addr" : "石巻市穀町14-1",  "lat" : "38.4342719",  "lon" : "141.3028417",    },
