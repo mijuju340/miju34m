@@ -1,5 +1,6 @@
 dangerlet markersData ={
-	'bus':{name: 'バス停', icon: 'bus1.png', distance:'300', color:'red'},
+	'fireplace':{name: '火事場', icon: 'fire.PNG', distance:'300', color:'non'},
+	        'bus':{name: 'バス停', icon: 'bus1.png', distance:'300', color:'red'},
 		'event':{name: 'イベント', icon: 'GreenF.png', distance:'300', color:'non'},
 		'CommunityCenter':{name: 'コミュニティ', icon: 'CommunityCenter.png', distance:'300', color:'non'},
 		'FuneralCenter':{name: '斎場・霊園', icon: 'FuneralCenter.png', distance:'300', color:'non'},
@@ -17,7 +18,7 @@ dangerlet markersData ={
 		'buy':{name: '買う', icon: 'buy.png', distance:'300', color:'non'},
 		'Facility':{name: 'その他施設', icon: 'Facility.png', distance:'300', color:'non'},
 		'FireStation':{name: '消防署', icon: 'FireStation.png', distance:'300', color:'non'},
-		'fireplace':{name: '火事場', icon: 'fire.PNG', distance:'300', color:'non'},
+		
 };
 
 var data = [
