@@ -1,7 +1,26 @@
 let markersData ={
-	'fireplace':{name:'火事発生場所', icon:'fire.PNG', distance:'300', color:'non'},
-		/*'FireStation':{name: '消防署', icon: 'FireStation.png', distance:'300', color:'non'},*/
-};
+	/*'bus':{name: 'バス停', icon: 'bus_stop.png', distance:'300', color:'red'},
+		'event':{name: 'イベント', icon: 'GreenF.png', distance:'300', color:'non'},
+		'CommunityCenter':{name: 'コミュニティ', icon: 'CommunityCenter.png', distance:'300', color:'non'},
+		'FuneralCenter':{name: '斎場・霊園', icon: 'FuneralCenter.png', distance:'300', color:'non'},
+		'DisposalSite':{name: 'ゴミ処理', icon: 'DisposalSite.png', distance:'300', color:'non'},
+		'HealthWelfare':{name: '福祉', icon: 'HealthWelfare.png', distance:'300', color:'non'},
+		'ChildrenCenter':{name: '子ども', icon: 'ChildrenCenter.png', distance:'300', color:'non'},
+		'Museum':{name: '芸術', icon: 'Museum.png', distance:'300', color:'non'},
+		'PublicHouse':{name: '公営住宅', icon: 'PublicHouse.png', distance:'300', color:'non'},
+		'Hospital':{name: '病院', icon: 'Hospital.png', distance:'300', color:'non'},
+		'School':{name: '学校', icon: 'School.png', distance:'300', color:'non'},
+		'Park':{name: '公園', icon: 'Park.png', distance:'300', color:'non'},
+		'eat':{name: '食べる', icon: 'eat.png', distance:'300', color:'non'},
+		'play':{name: '遊ぶ', icon: 'play.png', distance:'300', color:'non'},
+		'sight':{name: '観光', icon: 'sight.png', distance:'300', color:'non'},
+		'buy':{name: '買う', icon: 'buy.png', distance:'300', color:'non'},
+		'Facility':{name: 'その他施設', icon: 'Facility.png', distance:'300', color:'non'},
+		'FireStation':{name: '消防署', icon: 'FireStation.png', distance:'300', color:'non'},*/
+		'fireplace':{name:'火事発生場所', icon:'fire.PNG', distance:'300', color:'non'},
+		};
+	
+
 
 var data = [
 	{  "id" : "danger_1",  "cat" : "fireplace",  "name" : "ブラジル連邦共和国 Rio Alto Pacajá", "addr" : "Rio Alto Pacajá",  "lat" : "-2.10308",  "lon" : "-50.99964",    },
