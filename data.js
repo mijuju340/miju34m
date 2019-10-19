@@ -64,7 +64,7 @@ var data = [
 	{  "id" : "danger_39",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.94854",  "lon" : "-50.3854",    },
 	{  "id" : "danger_40",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.94928",  "lon" : "-50.39006",    },
 	{  "id" : "danger_41",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.95082",  "lon" : "-50.39364",    },
-	{  "id" : "danger_42",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "2.95138",  "lon" : "50.39017",    },
+	{  "id" : "danger_42",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.95138",  "lon" : "-50.39017",    },
 	{  "id" : "danger_43",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.95194",  "lon" : "-50.3867",    },
 	{  "id" : "danger_44",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.95309",  "lon" : "-50.38947",    },
 	{  "id" : "danger_45",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.95539",  "lon" : "-50.39083",    },
