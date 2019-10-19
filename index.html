@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<title>MAP表示サンプル</title>
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+
+<!--    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+-->    
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script type="text/javascript" src="data.js" charset="UTF-8"></script>
+<!--<script type="text/javascript" src="js/sparql.js" charset="UTF-8"></script>-->
+<!--<script type="text/javascript" src="js/getLODdbp.js" charset="UTF-8"></script>-->
+<script type="text/javascript" src="js/showOSM.js" charset="UTF-8"></script>
+<script src="https://openlayers.org/api/OpenLayers.js"></script>
+
+
+ <style type="text/css">
+<!--html, body {
+    height: 100%;
+}
+
+#body {
+    padding: 1;
+    margin: 1;
+   line-height: 1.1em
+}
+#container{
+    padding: 1;
+    margin: 1;
+   line-height: 1.2em;
+}-->
+
+#Menu {
+        width: auto;
+  　height:90%;
+	float:left;
+<!--	background-color:#CC99CC;-->
+    }
+
+#Map {
+        height:90%;
+        width: auto;
+        margin:0 auto;
+        }
+</style>
+
+</head>
+<body>
+
+
+<div id="Menu">
+<div style="border: double 10px #7fbfff; margin: 2px;">
+	<span style="font-size:24px; margin:2px;"><b><i>○○○MAP</i></b></span>
+	</div>
+	<hr>
+<!-- <form name="list_a"> -->
+<div id="markerList"></div>
+<script>
+
+$(window).load(function() {
+	
+	showMAP('Map',38.4296661,141.2843351);	//緯度・経度をここで指定
+
+});
+
+
+	function changeCBOX(value) {  	
+	  var selected = false;
+	  if (document.getElementById(value).checked) {
+			 selected = true;
+			  //alert(value+" が選択されました。");
+			} else {
+				// alert(value+"の選択が解除されました。"); // チェックがはいっていない
+			}  
+		    
+		  changeMarker(value, selected);
+	
+	　　	//alert("OK?"+value);
+　　　}
+
+	function changeDistance(value) {  	
+		var distance = document.getElementById(value).value;
+		var category = document.getElementById(value).name;
+		if(isNaN(distance)){
+			alert("d(距離)は整数で入力して下さい．\n（d=300に設定します）");
+			document.getElementById(value).value = 300;
+			distance = 300;
+		}
+		setDistance(category, distance);
+	}
+	
+	function changeColor(value){
+		var color = document.getElementById(value).value;
+		var category = document.getElementById(value).name;
+		setDistanceColor(category, color);
+	}
+	
+	function showDistanceMenu(value){
+		var button = document.getElementById(value);
+		var category = button.name;
+		var menu = document.getElementById(category+"_control");
+		if(menu.style.display=="block"){
+			// noneで非表示
+			menu.style.display ="none";
+			button.value="+";
+		}else{
+			// blockで表示
+			menu.style.display ="block";
+			button.value="-";
+		}
+	}
+</script>
+
+</div>
+
+<div id="Map"></div>
+<div>
+<hr>
+<p>説明</p>
+</div>
+
+</body>
+</html>
