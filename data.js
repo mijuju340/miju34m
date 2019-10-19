@@ -5,7 +5,7 @@ dangerlet markersData ={
 };
 
 var data = [
-	{  "id" : "danger_1",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.10308",  "lon" : "-50.99964",    },
+	{  "id" : "danger_1",  "cat" : "fireplace",  "name" : "",  "addr" : "Rio Alto Pacajá",  "lat" : "-2.10308",  "lon" : "-50.99964",    },
 	{  "id" : "danger_2",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.16319",  "lon" : "-50.16797",    },
 	{  "id" : "danger_3",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.1833",  "lon" : "-50.22018",    },
 	{  "id" : "danger_4",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.18656",  "lon" : "-50.18959",    },
@@ -54,5 +54,4 @@ var data = [
 	{  "id" : "danger_47",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.95691",  "lon" : "-50.38889",    },
 	{  "id" : "danger_48",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.99743",  "lon" : "-50.47834",    },
 	{  "id" : "danger_49",  "cat" : "fireplace",  "name" : "",  "addr" : "",  "lat" : "-2.99803",  "lon" : "-50.47465",    },
-    	
-];
+    	];
