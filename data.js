@@ -1,7 +1,5 @@
 dangerlet markersData ={
 	'fireplace':{name: '火事場', icon: 'fire.PNG', distance:'300', color:'non'},
-	        'bus':{name: 'バス停', icon: 'bus1.png', distance:'300', color:'red'},
-		'event':{name: 'イベント', icon: 'GreenF.png', distance:'300', color:'non'},
 		'CommunityCenter':{name: 'コミュニティ', icon: 'CommunityCenter.png', distance:'300', color:'non'},
 		'FuneralCenter':{name: '斎場・霊園', icon: 'FuneralCenter.png', distance:'300', color:'non'},
 		'DisposalSite':{name: 'ゴミ処理', icon: 'DisposalSite.png', distance:'300', color:'non'},
@@ -200,7 +198,7 @@ var data = [
 	{  "id" : "danger_176",  "cat" : "fireplace",  "name" : "学習等供用施設上釜会館",  "addr" : "石巻市門脇字浦屋敷4-3",  "lat" : "38.4221634",  "lon" : "141.262723",    },
 	{  "id" : "danger_177",  "cat" : "fireplace",  "name" : "総合福祉会館うしお荘",  "addr" : "石巻市流留字七勺21",  "lat" : "38.424238",  "lon" : "141.372914",    },
 	{  "id" : "danger_178",  "cat" : "fireplace",  "name" : "総合福祉会館みなと荘",  "addr" : "石巻市八幡町一丁目6番22号",  "lat" : "38.426721",  "lon" : "141.315146",    },
-	{  "id" : "danger_179",  "cat" : "fireplace",  "namedanger" : "仲町集会所",  "addr" : "石巻市相野谷字本屋敷6-1",  "lat" : "38.513798",  "lon" : "141.313982",    },
+	{  "id" : "danger_179",  "cat" : "fireplace",  "name" : "仲町集会所",  "addr" : "石巻市相野谷字本屋敷6-1",  "lat" : "38.513798",  "lon" : "141.313982",    },
 	{  "id" : "danger_180",  "cat" : "fireplace",  "name" : "河北親林交流館",  "addr" : "石巻市三輪田字谷津162-22",  "lat" : "38.50467",  "lon" : "141.321247",    },
 	{  "id" : "danger_181",  "cat" : "fireplace",  "name" : "河北中野林業センター",  "addr" : "石巻市中野字大屋敷123-1",  "lat" : "38.531334",  "lon" : "141.345889",    },
 	{  "id" : "danger_182",  "cat" : "fireplace",  "name" : "後谷地老人憩の家",  "addr" : "石巻市小船越字舟形22-1",  "lat" : "38.5016968",  "lon" : "141.2871651",    },
